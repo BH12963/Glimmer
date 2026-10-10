@@ -8,7 +8,7 @@ Unlike those minimal engines that pack themselves into self-extracting shell scr
 
 Windows is a different story. The PE/COFF format brings so much extra baggage (section alignment padding, runtime initialization overhead…) that any `.exe` would blow past the 30,000-byte limit. That’s why Glimmer stays deliberately Linux-only and ELF-native. No Windows builds are provided or supported.
 #### 📊 Benchmark & Strength
-Glimmer was tested natively on Linux in **257** head-to-head games (no adjudication — everything played out to the end) at **10s + 0.1s** increment. Here’s how it performed:
+Glimmer was tested natively on Linux on my own hardware in **257** head-to-head games (no adjudication — everything played out to the end) at **10s + 0.1s** increment. Here’s how it performed:
 
 | Opponent Engine     | Baseline Elo | Games | Score (+ / – / =) | Win Rate | Glimmer Performance |
 |---------------------|:------------:|:-----:|:-----------------:|:--------:|:-------------------:|
