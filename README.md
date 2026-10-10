@@ -18,7 +18,7 @@ Glimmer was tested in **257** head-to-head games (no adjudication — everything
 | **TOTAL / OVERALL** |   **~2744**  | **257** | **128 / 58 / 71** | **63.6%** | **~2841 ± 28 Elo** |
 
 📁 *All game logs (PGN) are available in the [`benchmarks`](./benchmarks) folder.
-#####Size
+##### Size
 ```bash
 $ wc -c Glimmer1.0
 24824 Glimmer1.0
